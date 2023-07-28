@@ -81,7 +81,7 @@
     <ol marker="a." permid="goe">
       <li permid="Mvn">
         <p permid="Rfg">
-          Use the limit definition of the derivative to compute a formula for <m>y = g'(x)</m>.
+          Use derivative rules to compute a formula for <m>y = g'(x)</m>.
         </p>
       </li>
 
@@ -118,7 +118,9 @@
 
   <figure xml:id="F-1-8-PA1" permid="idr">
     <caption>Axes for plotting <m>y = g(x)</m> and its tangent line to the point <m>(2,g(2))</m>.</caption>
-    <image width="47%" source="images/1_8_PA1" />
+    <image width="47%" source="images/1_8_PA1" >
+    	<description>Blank axes for sketching the function g with its tangent line at x equal 2. </description>
+    </image>
   </figure>
 </exploration>
 
@@ -154,7 +156,9 @@
 
     <figure xml:id="F-1-8-TanLine" permid="fQs">
       <caption>A function <m>y = f(x)</m> and its tangent line at the point <m>(a,f(a))</m>: at left, from a distance, and at right, up close.  At right, we label the tangent line function by <m>y = L(x)</m> and observe that for <m>x</m> near <m>a</m>, <m>f(x) \approx L(x)</m>.</caption>
-      <image width="100%" source="images/1_8_TanLine" />
+      <image width="100%" source="images/1_8_TanLine">
+      	<description>The graph of a function f with its tangent line at x equal a. A zoomed in version shows the graph of f is nearly identical to the tangent line for x values near a. </description>
+      </image>
     </figure>
     <p>
     Use the interactive provided to see local linearity dynamically. Zoom in towards the center <m>a</m> and describe the relationship between the tangent line at <m>a</m> and the function values near <m>a</m>. 
@@ -274,7 +278,9 @@
 
     <figure xml:id="F-1-8-Act1" permid="kmM">
       <caption>Axes for plotting <m>y = L(x)</m> and <m>y = g(x)</m>.</caption>
-      <image width="47%" source="images/1_8_Act1" />
+      <image width="47%" source="images/1_8_Act1" >
+      	<description>Blank axes for sketching L and a possible graph of g. </description>
+      </image>
     </figure>
   </statement>
   <!-- HIDE hints, answers, soluitons
@@ -461,7 +467,9 @@
 
     <figure xml:id="F-1-8-Options" permid="cVM">
       <caption>Four possible graphs for a nonlinear differentiable function and how it can be situated relative to its tangent line at a point.</caption>
-      <image width="100%" source="images/1_8_Options" />
+      <image width="100%" source="images/1_8_Options" >
+      	<description>Four different graphs showing how a tangent line can be situated differently based on the concavity of the function. </description>
+      </image>
     </figure>
 
     <p permid="kAl">
@@ -541,7 +549,9 @@
 
     <figure xml:id="F-1-8-Act2" permid="ecb">
       <caption>At center, a graph of <m>y = f'(x)</m>; at left, axes for plotting <m>y = f(x)</m>; at right, axes for plotting <m>y = f''(x)</m>.</caption>
-      <image width="100%" source="images/1_8_Act2" />
+      <image width="100%" source="images/1_8_Act2" >
+      	<description>A graph of the derivative of a function f along with two blank axes for sketching graphs of the function f and the second derivative of the function f. </description>
+      </image>
     </figure>
 
     <p permid="xUS">
@@ -852,7 +862,7 @@
 		While both <m>L(x)</m> and <m>Q(x)</m> can be used to approximate <m>cos(x)</m> for <m>x</m> values close to <m>0</m>, the graph below shows that in general, <m>Q(x)</m> will result in better approximations because it is able to <q>bend</q> with the graph of <m>\cos(x)</m>.
 		</p>
 		<image width="60%" source="images/3_1_quadapprox.png">
-			<description>The graph of cosine along with the linear approximation and quadratic approximation centered at 0.  </description>
+			<description>The graph of cosine along with the linear approximation and quadratic approximation centered at x equal zero.  </description>
 		</image>
 	</example>
 </subsection>
@@ -1460,12 +1470,12 @@
 			</li>
 			<li>
 			<image width="60%" source="images/3_2_cob3.png">
-			<description>The graph of a line with slope -2 which intersects the diagonal at x equals 2. </description>
+			<description>The graph of a line with slope negative 2 which intersects the diagonal at x equals 2. </description>
 		</image>
 			</li>
 			<li>
 			<image width="60%" source="images/3_2_cob4.png">
-			<description>The graph of a line with slope -.5 which intersects the diagonal at x equals 2. </description>
+			<description>The graph of a line with slope negative .5 which intersects the diagonal at x equals 2. </description>
 		</image>
 			</li>
 		</ol>
@@ -1684,7 +1694,7 @@
 		The stability criteria provided so far does not tell us what happens when the derivative of an updating function rule at an equilibrium point is equal to <m>1</m> in absolute value. For the sake of examples, we will focus on the case when the derivative is equal to <m>1</m> (a similar discussion can be had when the derivative is equal to <m>-1</m>).
 		</p>
 		<p>
-		This is an interesting case because if a DTDS has an equilibrium point <m>x^*</m>, then the graph of the updating function rule will intersect the diagonal line <m>x_{t+1}=x_t</m>. If the derivative of the updating function rule at <m>x^*</m> is equal to <m>1</m>, its tangent line has the same slope as the diagonal line. This means the tangent line intersects the diagonal line and has the same slope, which means the diagonal line is the tangent line to the updating function rule at the equilibrium point. We have seen in <xref ref="sec-1-8-tan-line-approx">Section</xref> that the way a function behaves around its tangent line at a point can verify depending on the second derivative at that point. We will use this as motivation in generating the two examples below.
+		This is an interesting case because if a DTDS has an equilibrium point <m>x^*</m>, then the graph of the updating function rule will intersect the diagonal line <m>x_{t+1}=x_t</m>. If the derivative of the updating function rule at <m>x^*</m> is equal to <m>1</m>, its tangent line has the same slope as the diagonal line. This means the tangent line intersects the diagonal line and has the same slope, which means the diagonal line is the tangent line to the updating function rule at the equilibrium point. We have seen in <xref ref="sec-1-8-tan-line-approx">Section</xref> that the way a function behaves around its tangent line at a point can vary depending on the second derivative at that point. We will use this as motivation in generating the two examples below.
 		</p>
 		<p>
 		First consider the updating function <m>x_{t+1}= \sin(x_t)</m>. It can be verified algebraically that <m>x^*=0</m> is an equilibrium point. Note also that the updating function rule is <m>f(x)=\sin(x)</m>, so that <m>f'(x)=\cos(x)</m>. Therefore, <m>f'(0)= \cos(0) = 1</m>, which means this is a case in which the derivative of the updating function rule at the equilibrium point is equal to <m>1</m>. Use the interactive below to answer the questions before viewing the answers.
@@ -2099,7 +2109,9 @@
 
     <figure xml:id="F-3-1-Intro" permid="ZNl">
       <caption>At left, <m>s(t) = -16t^2 + 24t + 32</m> whose vertex is <m>(\frac{3}{4}, 41)</m>; at right, a function <m>g</m> that demonstrates several high and low points.</caption>
-      <image width="100%" source="images/3_1_Intro" />
+      <image width="100%" source="images/3_1_Intro">
+      		<description>Graphs of two functions demonstrating examples of maximum and minimum values of functions.</description>
+      </image>
     </figure>
 
     <definition permid="PJF">
@@ -2149,7 +2161,9 @@
 
   <figure xml:id="F-3-1-PA1" permid="Moj">
     <caption>The graph of a function <m>h</m> on the interval <m>[-3,3]</m>.</caption>
-    <image width="50%" source="images/3_1_PA1" />
+    <image width="50%" source="images/3_1_PA1" >
+    	<description>The graph of a function h. </description>
+    </image>
   </figure>
 
   <p permid="gha">
@@ -2215,7 +2229,9 @@
     <title>Critical numbers and the first derivative test</title>
     <figure xml:id="F-3-1-extremes" permid="exe">
       <caption>From left to right, a function with a relative maximum where its derivative is zero; a function with a relative maximum where its derivative is undefined; a function with neither a maximum nor a minimum at a point where its derivative is zero; a function with a relative minimum where its derivative is zero; and a function with a relative minimum where its derivative is undefined.</caption>
-      <image width="100%" source="images/3_1_extremes" />
+      <image width="100%" source="images/3_1_extremes" >
+      		<description>Graphs of five functions with local extreme values. Tangent lines are drawn when possible to illustrate derivative behavior. </description>
+      </image>
     </figure>
 
     <p permid="FUu">
@@ -2312,7 +2328,9 @@
 
         <figure xml:id="F-3-1-signchart" permid="uLv">
           <caption>The first derivative sign chart for a function <m>f</m> whose derivative is given by the formula <m>f'(x) = e^{-2x}(3-x)(x+1)^2</m>.</caption>
-          <image width="65%" source="images/3_1_signchart" />
+          <image width="65%" source="images/3_1_signchart" >
+          	<description>The first derivative sign chart for the function f in this example with critical numbers at x equal negative one and x equal three. </description>
+          </image>
         </figure>
 
         <p permid="ixd">
@@ -2571,7 +2589,9 @@
 
     <figure xml:id="F-3-1-2Dtest" permid="nQQ">
       <caption>Four possible graphs of a function <m>f</m> with a horizontal tangent line at a critical point.</caption>
-      <image width="100%" source="images/3_1_2Dtest" />
+      <image width="100%" source="images/3_1_2Dtest" >
+      	<description>Four graphs of functions each of which have a horizontal tangent line at a critical point but have different second derivative behavior. </description>
+      </image>
     </figure>
 
     <p permid="qLw">
@@ -2644,7 +2664,9 @@
 
         <figure xml:id="F-3-1-signchart2" permid="rQP">
           <caption>The first derivative sign chart for <m>f</m> when <m>f'(x) = 3x^4 - 9x^2 = 3x^2(x^2-3)</m>.</caption>
-          <image width="100%" source="images/3_1_signchart2" />
+          <image width="100%" source="images/3_1_signchart2" >
+          	<description>A first derivative sign chart for the function f. </description>
+          </image>
         </figure>
 
         <p permid="GZN">
@@ -2676,7 +2698,9 @@
 
         <figure xml:id="F-3-1-signchart3" permid="XXY">
           <caption>The second derivative sign chart for <m>f</m> when <m>f''(x) = 12x^3-18x = 12x^2\left(x^2-\frac{3}{2} \right)</m>.</caption>
-          <image width="100%" source="images/3_1_signchart3" />
+          <image width="100%" source="images/3_1_signchart3" >
+          	<description>A second derivative sign chart for the function f. </description>
+          </image>
         </figure>
 
         <p permid="Tof">
@@ -2692,7 +2716,9 @@
 
         <figure xml:id="F-3-1-Ex2" permid="Efh">
           <caption>A possible graph of the function <m>f</m> in <xref ref="Ex-3-2">Example</xref>.</caption>
-          <image width="65%" source="images/3_1_Ex2" />
+          <image width="65%" source="images/3_1_Ex2" >
+          	<description>A possible graph for the function f using the information from the first and second derivative sign charts. </description>
+          </image>
         </figure>
 
         <p permid="fCx">
@@ -2769,7 +2795,9 @@
 
     <figure xml:id="F-3-1-Act2" permid="fDT">
       <caption>The graph of <m>y = g''(x)</m>.</caption>
-      <image width="47%" source="images/3_1_Act2" />
+      <image width="47%" source="images/3_1_Act2" >
+      	<description>The graph of the second derivative of the function g. </description>
+      </image>
     </figure>
 
     <p permid="zwK">
@@ -3223,7 +3251,9 @@
 
       <figure xml:id="F-3-1-Ez1" permid="thm">
         <caption>At center, a graph of <m>y = f'(x)</m>; at left, axes for plotting <m>y = f(x)</m>; at right, axes for plotting <m>y = f''(x)</m>.</caption>
-        <image width="100%" source="images/3_1_Ez1" />
+        <image width="100%" source="images/3_1_Ez1" >
+        		<description>A graph of the derivative of a function f along with two blank axes for sketching the graphs of the function f and the second derivative of f. </description>
+        </image>
       </figure>
 
       <p permid="Nad">
@@ -3793,7 +3823,9 @@
 
       <figure xml:id="F-3-3-Intro" permid="mZS">
         <caption>A function <m>f</m> with a global maximum, but no global minimum.</caption>
-        <image source="images/3_3_Intro" />
+        <image source="images/3_3_Intro" >
+        		<description>The graph of a function f with a global maximum, relative maximum, and relative minimum, but no global minimum value. </description>
+        </image>
       </figure>
     </sidebyside>
 
@@ -4082,7 +4114,7 @@
       The theorem does not tell us where these extreme values occur,
       but rather only that they must exist.
       As we saw in <xref ref="act-3-3-1">Activity</xref>,
-      the only possible locations for relative extremes are at the endpoints of the interval or at a critical number.
+      the only possible locations for absolute extremes are at the endpoints of the interval or at a critical number.
     </p>
 
     <note permid="kAL">
@@ -4140,7 +4172,7 @@
 
         <li permid="LwU">
           <p permid="eks">
-            <m>f(x) = 4 - e^{-(x-2)^2}</m>, <m>(-\infty, \infty)</m> (<em>Find the global maximum only.</em>)
+            <m>f(x) = 4 - e^{-(x-2)^2}</m>, <m>(-\infty, \infty)</m> (<em>Find the global minimum only.</em>)
           </p>
         </li>
 
@@ -4388,7 +4420,9 @@
 
     <figure xml:id="F-3-3-Interval" permid="IHW">
       <caption>A function <m>g</m> considered on three different intervals.</caption>
-      <image width="100%" source="images/3_3_Interval" />
+      <image width="100%" source="images/3_3_Interval" >
+      		<description>The graph of a function g restricted to three different intervals showing that absolute extreme values can change depending on the interval being considered. </description>
+      </image>
     </figure>
 
     <p permid="wtE">
@@ -4453,7 +4487,9 @@
 
         <figure xml:id="F-3-3-Ex1" permid="ipZ">
           <caption>A 20 ft piece of wood cut into two pieces, one of which forms an equilateral triangle, the other which yields a square.</caption>
-          <image width="56%" source="images/3_3_Ex1" />
+          <image width="56%" source="images/3_3_Ex1" >
+          	<description>A 20 foot piece of wood cut into two pieces. One piece is used to form an equilateral triangle, while the other is used to form a square. </description>
+          </image>
         </figure>
       <!--</sidebyside>-->
         <p permid="RrO">
@@ -4535,7 +4571,9 @@
 
         <figure xml:id="F-3-3-Ex1Plot" permid="Oxi">
           <caption>A plot of the area function from <xref ref="Ex-3-3-1">Example</xref>.</caption>
-          <image width="47%" source="images/3_3_Ex1Plot" />
+          <image width="47%" source="images/3_3_Ex1Plot" >
+          	<description>The graph of the area function when x feet is cut to form an equilateral triangle. </description>
+          </image>
         </figure>
       <!--</sidebyside>-->
       </solution>
@@ -5557,7 +5595,9 @@
     <title>Using derivatives to evaluate indeterminate limits of the form <m>\frac{0}{0}</m>.</title>
     <figure xml:id="F-2-8-LHR" permid="Lvl">
       <caption>At left, the graphs of <m>f</m> and <m>g</m> near the value <m>a</m>, along with their tangent line approximations <m>L_f</m> and <m>L_g</m> at <m>x = a</m>.  At right, zooming in on the point <m>a</m> and the four graphs.</caption>
-      <image width="100%" source="images/2_8_LHR" />
+      <image width="100%" source="images/2_8_LHR" >
+      	<description>The graphs of two functions f and g whose limits are zero as x approaches a, along with their tangent lines at x equal a. A zoomed in version shows both graphs look like their tangent lines for x values close to a. </description>
+      </image>
     </figure>
 
     <p permid="VUq">
@@ -5624,7 +5664,7 @@
     <p permid="aEj">
       In practice,
       we typically work with a slightly more general version of L'Hôpital's Rule,
-      which states that if <m>f</m> and <m>g</m> are differentiable near <m>a</m>, <m>g'(x) \neq 0</m> near <m>a</m> (except possibly at <m>a</m>), and <m>\lim_{x \to a}f(x) = \lim_{x \to a}g(x)=0</m>, then<!--(under the identical assumptions as the boxed rule above and the extra assumption that <m>g'</m> is continuous at <m>x=a</m>)-->
+      which states that if <m>f</m> and <m>g</m> are differentiable near <m>a</m> (except possibly at <m>a</m>), <m>g'(x) \neq 0</m> near <m>a</m> (except possibly at <m>a</m>), and <m>\lim_{x \to a}f(x) = \lim_{x \to a}g(x)=0</m>, then<!--(under the identical assumptions as the boxed rule above and the extra assumption that <m>g'</m> is continuous at <m>x=a</m>)-->
       <me permid="bod">
         \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}
         <idx><h>L'Hôpital's rule</h></idx>
@@ -5830,7 +5870,9 @@
 
     <figure xml:id="F-2-8-LHR2" permid="rCu">
       <caption>Two functions <m>f</m> and <m>g</m> that satisfy L'Hôpital's Rule.</caption>
-      <image width="100%" source="images/2_8_LHR2" />
+      <image width="100%" source="images/2_8_LHR2" >
+      	<description>The graphs of two functions f and g whose limits are zero as x approaches a, along with their tangent lines at x equal a. A zoomed in version shows both graphs look like their tangent lines for x values close to a. </description>
+      </image>
     </figure>
 
     <p permid="zgT">
@@ -5861,7 +5903,9 @@
 
     <figure xml:id="F-2-8-Act2" permid="ouP">
       <caption>Three graphs referenced in the questions of <xref ref="act-2-8-2">Activity</xref>.</caption>
-      <image width="100%" source="images/2_8_Act2" />
+      <image width="100%" source="images/2_8_Act2" >
+      	<description>The graphs of three pairs of functions. </description>
+      </image>
     </figure>
 
     <p permid="InG">
@@ -6041,7 +6085,9 @@
 
     <figure xml:id="F-2-8-Infty" permid="KpS">
       <caption>The graph of <m>f(x) = \frac{1}{x}</m>.</caption>
-      <image width="47%" source="images/2_8_Infty" />
+      <image width="47%" source="images/2_8_Infty" >
+      	<description>The graph of the function one divided by x. </description>
+      </image>
     </figure>
 
     <p permid="jXV">
@@ -6119,7 +6165,9 @@
 
     <figure xml:id="F-2-8-InftyLib" permid="qxb">
       <caption>Graphs of some familiar functions whose end behavior as <m>x \to \pm \infty</m> is known.  In the middle graph, <m>f(x) = x^3 - 16x</m> and <m>g(x) = x^4 - 16x^2 - 8</m>.</caption>
-      <image width="100%" source="images/2_8_InftyLib" />
+      <image width="100%" source="images/2_8_InftyLib" >
+      	<description>Graphs of functions with different end behavior as x approaches positive and negative infinity. </description>
+      </image>
     </figure>
 
     <p permid="oHO">
@@ -6215,8 +6263,8 @@
       <idx><h>L'Hôpital's rule</h><h>at infinity</h></idx>
 
       <p permid="ZyQ">
-        If <m>f</m> and <m>g</m> are differentiable and both approach zero or both approach <m>\pm \infty</m> as <m>x \to a</m>
-        (where <m>a</m> is allowed to be <m>\infty</m>)
+        If <m>f</m> and <m>g</m> are differentiable near <m>a</m> and both approach zero or both approach <m>\pm \infty</m> as <m>x \to a</m>
+        (where <m>a</m> is allowed to be <m>\pm \infty</m>)
         , then
         <me permid="ddq">
           \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}
@@ -6224,14 +6272,13 @@
         provided the righthand limit exists.
       </p>
     </assemblage>
-<!--
+    
     <p permid="FFZ">
       (To be technically correct,
       we need to add the additional hypothesis that
-      <m>g'(x) \ne 0</m> on an open interval that contains <m>a</m> or in every neighborhood of infinity if <m>a</m> is <m>\infty</m>;
+      <m>g'(x) \ne 0</m> near <m>a</m>;
       this is almost always met in practice.)
     </p>
-   -->
 
     <p permid="lNi">
       To evaluate <m>\lim_{x \to \infty} \frac{x^2}{e^x}</m>,

@@ -103,7 +103,9 @@
 
    			 <figure xml:id="F-1-2-PA1" permid="Dxa">
      			 	<caption>Graph of <m>y = g(x)</m> for <xref ref="wu-2-1">Warm-Up</xref>.</caption>
-      				<image width="47%" source="images/2_1_WU1" />
+      				<image width="47%" source="images/2_1_WU1">
+					<description>A piece-wise graph with holes at x equal zero, one, and two. </description>
+				 </image>
    		 	</figure>
   		</statement>
 	</exploration>
@@ -232,7 +234,9 @@
 
     <figure xml:id="F-1-7-NoLimit" permid="TXz">
       <caption>Functions <m>f</m> and <m>g</m> that each fail to have a limit at <m>a = 1</m>.</caption>
-      <image width="100%" source="images/1_7_NoLimit" />
+      <image width="100%" source="images/1_7_NoLimit" >
+      		 <description>Graphs of functions f and g that do not have limits at x equal one. </description>
+      </image>
     </figure>
 
     <p permid="PnG">
@@ -405,7 +409,9 @@
           <!--  -->
           <figure xml:id="plot-F-1-2-Ex1f" permid="YlG">
             <caption>Plot of <m>f(x)</m> on <m>[-4,2]</m>.</caption>
-            <image source="images/1_2_Ex1f"/>
+            <image source="images/1_2_Ex1f">
+            	 <description>The graph of a function f which is a decreasing line with a hole at x equal negative two. </description>
+            </image>
           </figure>
         </sidebyside>
 
@@ -559,7 +565,9 @@
           <!--  -->
           <figure xml:id="plot-F-1-2-Ex1g" permid="EsP">
             <caption>Plot of <m>g(x)</m> on <m>[-4,4]</m>.</caption>
-            <image source="images/1_2_Ex1g"/>
+            <image source="images/1_2_Ex1g">
+            	<description>The graph of a function g which has increasingly rapid oscillations as x approaches zero. </description>
+            </image>
           </figure>
         </sidebyside>
 
@@ -831,7 +839,9 @@
 
     <figure xml:id="F-1-2-act-pos" permid="Efd">
       <caption>Plot of the position function <m>y = s(t)</m> in <xref ref="act-1-2-3">Activity</xref>.</caption>
-      <image width="47%" source="images/1_2_Act3" />
+      <image width="47%" source="images/1_2_Act3" >
+      		<description>The graph of the position function of an object over time.</description>
+      </image>
     </figure>
 
     <p permid="XXU">
@@ -1504,7 +1514,9 @@
 
       <figure xml:id="F-1-2-Ez3" permid="KGN">
         <caption>Axes for plotting <m>y = f(x)</m> in (a) and <m>y = g(x)</m> in (b).</caption>
-        <image permid="azF" width="100%" source="images/1_2_Ez3" />
+        <image permid="azF" width="100%" source="images/1_2_Ez3" >
+        		<description>Blank axes for sketching graphs that meet the criteria given in this exercise. </description>
+        </image>
       </figure>
 
       <p permid="ezE">
@@ -1861,7 +1873,9 @@
 
   <figure xml:id="F-1-3-PA1" permid="Fmn">
     <caption>Plot of <m>y = f(x)</m> for <xref ref="PA-1-3">Warm-Up</xref>.</caption>
-    <image width="47%" source="images/1_3_PA1" />
+    <image width="47%" source="images/1_3_PA1" >
+    	<description>The graph of a function f identifying points at x equal a and x equal a plus h. </description>
+    </image>
   </figure>
 
   <p permid="Zfe">
@@ -2025,7 +2039,9 @@
 
     <figure xml:id="F-1-3-SecToTanSeq" permid="djU">
       <caption>A sequence of secant lines approaching the tangent line to <m>f</m> at <m>(a,f(a))</m>.</caption>
-      <image width="100%" source="images/1_3_SecToTanSeq" />
+      <image width="100%" source="images/1_3_SecToTanSeq" >
+      		<description>A sequential ordering of secant lines approaching the tangent line to the graph of f at x equal a. </description>
+      </image>
     </figure>
 
     <p permid="kOt">
@@ -2042,7 +2058,9 @@
 
     <figure xml:id="F-1-3-SecToTan" permid="Jrd">
       <caption>A sequence of secant lines approaching the tangent line to <m>f</m> at <m>(a,f(a))</m>.  At right, we zoom in on the point <m>(a,f(a))</m>.  The slope of the tangent line (in green) to <m>f</m> at <m>(a,f(a))</m> is given by <m>f'(a)</m>.</caption>
-      <image width="60%" source="images/1_3_SecToTan" />
+      <image width="60%" source="images/1_3_SecToTan">
+      	<description>A sequence of secant lines on a single graph, along with a zoomed in picture of the tangent line at x equal a. </description>
+      </image>
     </figure>
 
     <note permid="GRW">
@@ -2121,7 +2139,9 @@
 
         <figure xml:id="F-1-3-Ex1" permid="qDF">
           <caption>The tangent line to <m>y = x - x^2</m> at the point <m>(2,-2)</m>.</caption>
-          <image width = "40%" source="images/1_3_Ex1" />
+          <image width = "40%" source="images/1_3_Ex1" >
+          	<description>The graph of f along with the tangent line at x equal 2. </description>
+          </image>
         </figure>
       </solution>
     </example>
@@ -2275,7 +2295,9 @@
 
           <figure xml:id="F-1-3-Act2" permid="Itx">
             <caption>Axes for plotting <m>y = s(t)</m> in <xref ref="act-1-3-2">Activity</xref>.</caption>
-            <image width="47%" source="images/1_3_Act2" />
+            <image width="47%" source="images/1_3_Act2">
+            	<description>Blank axes for sketching the graph of the position function s. </description>
+            </image>
           </figure>
 
         </li>
@@ -2445,7 +2467,9 @@
 
           <figure xml:id="F-1-3-Act3" permid="GiL">
             <caption>Axes for plotting <m>y = P(t)</m> in <xref ref="act-1-3-3">Activity</xref>.</caption>
-            <image width="47%" source="images/1_3_Act3" />
+            <image width="47%" source="images/1_3_Act3">
+            	<description>Blank axes for sketching the graph of P. </description>
+            </image	>
           </figure>
 
         </li>
@@ -2724,7 +2748,9 @@
 
         <figure xml:id="F-1-3-Ez1" permid="asB">
           <caption>Plot of <m>y = f(x)</m>.</caption>
-          <image source="images/1_3_Ez1" />
+          <image source="images/1_3_Ez1" >
+          	<description>The graph of a function f. </description>
+          </image>
         </figure>
       </sidebyside>
     </statement>
@@ -2823,7 +2849,9 @@
 
       <figure xml:id="F-1-3-Ez2" permid="yVl">
         <caption>Axes for plotting <m>y = f(x)</m> in (a) and <m>y = g(x)</m> in (b).</caption>
-        <image width="99%" source="images/1_2_Ez3" />
+        <image width="99%" source="images/1_2_Ez3" >
+        		<description>Blank axes for sketching graphs that meet the given criteria in this exercise.</description>
+        </image>
       </figure>
 
       <p permid="SOc">
@@ -3622,7 +3650,9 @@
 
     <figure xml:id="F-1-4-ffprime" permid="QAd">
       <caption>The graphs of <m>f(x) = 4x - x^2</m> (at left) and <m>f'(x) = 4 - 2x</m> (at right).  Slopes on the graph of <m>f</m> correspond to heights on the graph of <m>f'</m>.</caption>
-      <image width="74%" source="images/1_4_ffprimeplot" />
+      <image width="74%" source="images/1_4_ffprimeplot" >
+      		<description>The graph of four x minus x squared and the graph of its derivative function four minus two x. Tangent lines are shown to illustrate how values of the derivative function are determined. </description>
+      </image>
     </figure>
 
     <p permid="zBS">
@@ -3718,19 +3748,27 @@
     </p>
 
     <sidebyside widths="100%" permid="MHR">
-      <image source="images/1_4_Act1a" />
+      <image source="images/1_4_Act1a" >
+      	<description>Graphs of functions f and g, along with blank axes for sketching their derivative functions. </description>
+      </image>
     </sidebyside>
 
     <sidebyside widths="100%" permid="sPa">
-      <image source="images/1_4_Act1b" />
+      <image source="images/1_4_Act1b" >
+      	<description>Graphs of functions p and q, along with blank axes for sketching their derivative functions. </description>
+      </image>
     </sidebyside>
 
     <sidebyside widths="100%" permid="YWj">
-      <image source="images/1_4_Act1c" />
+      <image source="images/1_4_Act1c" >
+      	<description>Graphs of functions r and s, along with blank axes for sketching their derivative functions. </description>
+      </image>
     </sidebyside>
 
     <sidebyside widths="100%" permid="Fds">
-      <image source="images/1_4_Act1d" />
+      <image source="images/1_4_Act1d" >
+      	<description>Graphs of functions w and z, along with blank axes for sketching their derivative functions. </description>
+      </image>
     </sidebyside>
   </statement>
   <!-- HIDE hints, answers, solutions
@@ -3810,7 +3848,7 @@
       For the first two,
       determine the formula for the derivative by thinking about the nature of the given function and its slope at various points;
       do not use the limit definition.
-      For the latter four, use the limit definition.
+      For the last three, use the limit definition.
       Pay careful attention to the function names and independent variables.
       It is important to be comfortable with using letters other than <m>f</m> and <m>x</m>.
       For example, given a function <m>p(z)</m>,
@@ -4070,7 +4108,9 @@
 		<p>
 		On the graph of the function <m>f(x)</m> below, sketch a rough graph of its derivative function <m>f'(x)</m>. Use it to explain why <m>f'(0)</m> does not exist.
 		</p>
-		<image width="100%" source="images/cusp.png" />
+		<image width="100%" source="images/cusp.png" >
+			<description>The graph of a function f with a cusp at x equal 0. </description>
+		</image>
 		<p>
 		<em>Note</em>: The point <m>(0,f(0))</m> is called a <term>cusp</term>.
 		</p>
@@ -4374,7 +4414,9 @@
 
       <figure xml:id="F-1-4-Ez2" permid="alx">
         <caption>Axes for plotting <m>y = g(x)</m> and, at right, the graph of <m>y = g'(x)</m>.</caption>
-        <image width="100%" source="images/1_4_Ez2" />
+        <image width="100%" source="images/1_4_Ez2" >
+        		<description>The graph of the derivative function of g, along with blank axes for sketching the graph of the function g. </description>
+        </image>
       </figure>
 
       <p permid="ueo">
@@ -4514,11 +4556,15 @@
         <caption>Graphs of <m>y = f(x)</m> and grids for plotting the corresponding graph of <m>y = f'(x)</m>.</caption>
         <sbsgroup permid="CzL">
           <sidebyside widths="86%" margins="0%" permid="fMo">
-            <image source="images/1_4_Ez3a" />
+            <image source="images/1_4_Ez3a" >
+            	<description>Graphs of two functions with blank axes for sketching their derivative functions. </description>
+            </image>
           </sidebyside>
 
           <sidebyside widths="86%" margins="0%" permid="LTx">
-            <image source="images/1_4_Ez3b" />
+            <image source="images/1_4_Ez3b" >
+            	<description>Graphs of two functions with blank axes for sketching their derivative functions. </description>
+            </image>
           </sidebyside>
         </sbsgroup>
 
@@ -4637,7 +4683,9 @@
 
     <figure xml:id="F-1-6-Intro" permid="dcQ">
       <caption>Two tangent lines on a graph.</caption>
-      <image width="45%" source="images/1_6_Intro" />
+      <image width="45%" source="images/1_6_Intro">
+      	<description>The graph of a function with two tangent lines. One has a slope that is small and positive, while the other has a slope that is large in absolute value and negative. </description>
+       </image>
     </figure>
 
     <p permid="QOy">
@@ -4667,7 +4715,9 @@
 
   <figure xml:id="F-1-6-PA1" permid="yrI">
     <caption>The graph of <m>y = s(t)</m>, the position of the car (measured in thousands of feet from its starting location) at time <m>t</m> in minutes.</caption>
-    <image width="40%" source="images/1_6_PA1" />
+    <image width="40%" source="images/1_6_PA1" >
+    	<description>The graph of the position function of a car after t minutes. </description>
+    </image>
   </figure>
 
   <p permid="Skz">
@@ -4720,7 +4770,9 @@
 
   <figure xml:id="F-1-6-PA1b" permid="eyR">
     <caption>Axes for plotting <m>y = v(t) = s'(t)</m> and <m>y = v'(t)</m>.</caption>
-    <image width="100%" source="images/1_6_PA1b" />
+    <image width="100%" source="images/1_6_PA1b" >
+    	<description>Blank axes for sketching the graph of the velocity function of the car and the derivative function of the velocity function. </description>
+    </image>
   </figure>
 </exploration>
 
@@ -4779,7 +4831,9 @@
 
     <figure xml:id="F-1-6-Intro2" permid="hMJ">
       <caption>A function that is decreasing on the intervals <m>-3 \lt  x \lt  -2</m> and <m>0 \lt  x  \lt  2</m> and increasing on <m>-2 \lt  x \lt  0</m> and <m>2 \lt  x \lt  3</m>.</caption>
-      <image width="47%" source="images/1_6_Intro2" />
+      <image width="47%" source="images/1_6_Intro2" >
+      		<description>The graph of a function with tangent lines illustrating how the derivative function can be used to determine if the function is increasing or decreasing. </description>
+      </image>
     </figure>
   </subsection>
 
@@ -4857,7 +4911,9 @@
 
     <figure xml:id="F-1-6-3optsi" permid="jBW">
       <caption>Three functions that are all increasing, but doing so at an increasing rate, at a constant rate, and at a decreasing rate, respectively.</caption>
-      <image width="100%" source="images/1_6_3optsi" />
+      <image width="100%" source="images/1_6_3optsi" >
+      	<description>Three graphs of increasing functions which are increasing at different rates. One is increasing at an increasing rate, one is increasing at a constant rate, and one is increasing at a decreasing rate. </description>
+      </image>
     </figure>
 
     <p permid="mwC">
@@ -4894,7 +4950,9 @@
 
     <figure xml:id="F-1-6-3optsd" permid="PJf">
       <caption>From left to right, three functions that are all decreasing, but doing so in different ways.</caption>
-      <image width="100%" source="images/1_6_3optsd" />
+      <image width="100%" source="images/1_6_3optsd" >
+      	<description>Three graphs of decreasing functions which are decreasing at different rates. One is decreasing at an increasing rate, one is decreasing at a constant rate, and one is decreasing at a decreasing rate. </description>
+      </image>
     </figure>
 
     <p permid="yKU">
@@ -4951,7 +5009,9 @@
 
     <figure xml:id="F-1-6-concavity" permid="vQo">
       <caption>At left, a function that is concave up; at right, one that is concave down.</caption>
-      <image width="90%" source="images/1_6_concavity" />
+      <image width="90%" source="images/1_6_concavity" >
+      	<description>The graph of a function which is concave up and the graph of a function which is concave down. </description>
+      </image>
     </figure>
 
     <p permid="XnE">
@@ -4985,7 +5045,9 @@
 
     <figure xml:id="F-1-6-A1" permid="KiX">
       <caption>The graph of <m>y = s(t)</m>, the position of the car (measured in thousands of feet from its starting location) at time <m>t</m> in minutes.</caption>
-      <image width="40%" source="images/1_6_PA1" />
+      <image width="40%" source="images/1_6_PA1" >
+      	<description>The graph of the position function of a car after t minutes. </description>
+      </image>
     </figure>
 
     <p permid="ebO">
@@ -5372,11 +5434,8 @@
       we can replace <m>s</m>, <m>v</m>,
       and <m>a</m> with an arbitrary function <m>f</m> and its derivatives <m>f'</m> and <m>f''</m>,
       and essentially all the same observations hold.
-      In particular, note that the following are equivalent:
-      on an interval where the graph of <m>f</m> is concave up,
-      <m>f'</m> is increasing and <m>f''</m> is positive.
-      Likewise, on an interval where the graph of <m>f</m> is concave down,
-      <m>f'</m> is decreasing and <m>f''</m> is negative.
+      In particular, note that the following implications hold: <m>f''</m>  being positive on an interval implies <m>f'</m>  is increasing on the interval implies <m>f</m>  is concave up on the interval.
+      Likewise, <m>f''</m> being negative on an interval implies <m>f'</m> is decreasing on the interval implies <m>f</m> is concave down on the interval.
     </p>
 
  
@@ -5487,7 +5546,7 @@
         </li>
         <li permid="nvA">
           <p permid="hGo">
-            Though it's not possible to say for sure, do you think that <m>F''(30 \gt 0</m> or <m> F''(30) \lt 0</m>? Explain your reasoning.
+            Though it's not possible to say for sure, do you think that <m>F''(30) \gt 0</m> or <m> F''(30) \lt 0</m>? Explain your reasoning.
           </p>
         </li>
       </ol>
@@ -5642,7 +5701,9 @@
 
     <figure xml:id="F-1-6-A2" permid="nab">
       <caption>Two given functions <m>f</m>, with axes provided for plotting <m>f'</m> and <m>f''</m> below.</caption>
-      <image width="100%" source="images/1_6_Act2" />
+      <image width="100%" source="images/1_6_Act2" >
+      	<description>The graphs of two functions, along with blank axes for sketching the first derivative functions and the second derivative functions. </description>
+      </image>
     </figure>
   </statement>
   <!-- HIDE hints, answers, solutions
@@ -5699,9 +5760,9 @@
           How are these characteristics connected to certain properties of the derivative of the function?</question>
           <answer>
             A differentiable function is concave up whenever its first derivative is increasing
-            (or equivalently whenever its second derivative is positive),
+            (which is true when its second derivative is positive),
             and concave down whenever its first derivative is decreasing
-            (or equivalently whenever its second derivative is negative).
+            (which is true when its second derivative is negative).
             Examples of functions that are everywhere concave up are <m>y = x^2</m> and <m>y = e^x</m>;
             examples of functions that are everywhere concave down are <m>y = -x^2</m> and <m>y = -e^x</m>.
           </answer>
@@ -5857,7 +5918,9 @@
 
       <figure xml:id="F-1-6-Ez2" permid="tQg">
         <caption>The graph of <m>y = g'(x)</m>.</caption>
-        <image width="47%" source="images/1_6_Ez2" />
+        <image width="47%" source="images/1_6_Ez2" >
+        		<description>The graph of the derivative function of a function g. </description>
+        </image>
       </figure>
 
       <p permid="NIX">
@@ -6683,7 +6746,7 @@
           </p>
         </li>
         <li>
-        		<m>f(x) = rx^2 - \frac{x}{r} + r^3</m>
+        		<m>f(x) = \frac{1}{r} + r^2</m>
         </li>
       </ol>
     </p>
@@ -6868,7 +6931,7 @@
       we change the value of its derivative by a factor of <m>k</m> as well.<fn>
       The Constant Multiple Rule can be formally proved as a consequence of properties of limits,
       using the limit definition of the derivative.
-      </fn>,
+      </fn>
     </p>
 
     <assemblage xml:id="const-mult-rule" permid="PCb">
@@ -7579,7 +7642,9 @@ When functions are used as models, they are not always represented explicitly as
 
       <figure xml:id="F-2-1-Ez3" permid="yeN">
         <caption>The graphs of <m>p</m> (in blue) and <m>q</m> (in green).</caption>
-        <image width="47%" source="images/2_1_Ez3" />
+        <image width="47%" source="images/2_1_Ez3" >
+        		<description>The graphs of two piecewise linear functions p and q. </description>
+        </image>
       </figure>
 
       <p permid="RXE">
@@ -8106,7 +8171,9 @@ When functions are used as models, they are not always represented explicitly as
 
   <figure xml:id="F-2-2-PA1" permid="RPa">
     <caption>At left, the graph of <m>y = g(x) = 2^x</m>. At right, axes for plotting <m>y = g'(x)</m>.</caption>
-    <image width="60%" source="images/2_2_PA1a" />
+    <image width="60%" source="images/2_2_PA1a" >
+    	<description>The graph of an increasing exponential function along with blank axes for sketching the graph of its derivative function. </description>
+    </image>
   </figure>
 </exploration>
 
@@ -8140,7 +8207,9 @@ When functions are used as models, they are not always represented explicitly as
 
     <figure xml:id="F-2-2-A1" permid="fYF">
       <caption>At left, the graph of <m>y = f(x) = \sin(x)</m>.</caption>
-      <image width="100%" source="images/2_2_sine" />
+      <image width="100%" source="images/2_2_sine" >
+      		<description>The graph of sine of x along with blank axes for sketching its derivative function. </description>
+      </image>
     </figure>
 
     <p permid="zRw">
@@ -8333,7 +8402,9 @@ When functions are used as models, they are not always represented explicitly as
 
     <figure xml:id="F-2-2-A2" permid="rRy">
       <caption>At left, the graph of <m>y = g(x) = \cos(x)</m>.</caption>
-      <image width="100%" source="images/2_2_cosine" />
+      <image width="100%" source="images/2_2_cosine" >
+      	<description>The graph of the cosine function along with blank axes for sketching its derivative function. </description>
+      </image>
     </figure>
 
     <p permid="LKp">
@@ -10591,7 +10662,9 @@ When functions are used as models, they are not always represented explicitly as
 
         <figure xml:id="F-2-3-Ez3" permid="NJx">
           <caption>The graphs of <m>p</m> (in blue) and <m>q</m> (in green).</caption>
-          <image source="images/2_1_Ez3" />
+          <image source="images/2_1_Ez3" >
+          	<description>Graphs of two piecewise linear function p and q. </description>
+          </image>
         </figure>
       </sidebyside>
     </statement>
@@ -11276,7 +11349,7 @@ When functions are used as models, they are not always represented explicitly as
       Linear functions are the simplest of all functions, and
       composing linear functions yields another linear function.
       While this example does not illustrate the full complexity of a composition of nonlinear functions,
-      at the same time we will see in <xref refl="sec-1-8-tan-line-approx">Section</xref> that any differentiable function is
+      at the same time we will see in <xref ref="sec-1-8-tan-line-approx">Section</xref> that any differentiable function is
       <em>locally</em> linear,
       which essentially means that any function with a derivative behaves like a line when viewed up close.
       The fact that the derivatives of the linear functions <m>f</m> and <m>g</m> are multiplied to find the derivative of their composition turns out to be a key insight.
@@ -12509,7 +12582,9 @@ When functions are used as models, they are not always represented explicitly as
 
       <figure xml:id="F-2-5-Ez3" permid="Axd">
         <caption>The graphs of <m>p</m> (in blue) and <m>q</m> (in green).</caption>
-        <image width="50%" source="images/2_1_Ez3" />
+        <image width="50%" source="images/2_1_Ez3" >
+        		<description>The graphs of two piecewise linear functions p and q. </description>
+        </image>
       </figure>
 
       <p permid="UpU">
@@ -12981,7 +13056,9 @@ When functions are used as models, they are not always represented explicitly as
 
     <figure xml:id="F-2-6-Inverse-Plot" permid="Wbu">
       <caption>A graph of a function <m>y = f(x)</m> along with its inverse, <m>y = f^{-1}(x)</m>.</caption>
-      <image width="47%" source="images/2_6_InversePlot" />
+      <image width="47%" source="images/2_6_InversePlot" >
+      		<description>The graph of a function f along with the graph of its inverse function. </description>
+      </image>
     </figure>
 
     <p permid="pUl">
@@ -13081,7 +13158,9 @@ When functions are used as models, they are not always represented explicitly as
 
       <figure xml:id="F-2-6-Log-Exp" permid="Atq">
         <caption>A graph of the function <m>y = e^x</m> along with its inverse, <m>y = \ln(x)</m>, where both functions are viewed using the input variable <m>x</m>.</caption>
-        <image source="images/2_6_LogExp" />
+        <image source="images/2_6_LogExp" >
+        		<description>The graph of the function e to the x along with the graph of its inverse function natural log of x. Tangent lines are shown to illustrate how the derivative of the exponential function at a point is related to the derivative of the natural log function at the corresponding point. </description>
+        </image>
       </figure>
     </sidebyside>
 
@@ -13853,7 +13932,9 @@ When functions are used as models, they are not always represented explicitly as
 
     <figure xml:id="F-2-6-Gen-Inv" permid="Sbv">
       <caption>A graph of function <m>y = f(x)</m> along with its inverse, <m>y = g(x) = f^{-1}(x)</m>.  Observe that the slopes of the two tangent lines are reciprocals of one another.</caption>
-      <image width="50%" source="images/2_6_GenInv" />
+      <image width="50%" source="images/2_6_GenInv" >
+      		<description>The graph of a function along with the graph of its inverse function. Tangent lines are shown to illustrate how the derivative of the original function at a point is related to the derivative of its inverse function at the corresponding point. </description>
+      </image>
     </figure>
 
     <p permid="tyL">
@@ -14114,7 +14195,9 @@ When functions are used as models, they are not always represented explicitly as
 
         <figure xml:id="F-2-6-Ez4" permid="eHV">
           <caption>A function <m>y = f(x)</m></caption>
-          <image source="images/2_6_Ez4" />
+          <image source="images/2_6_Ez4" >
+          	<description>The graph of an invertible function f. </description>
+          </image>
         </figure>
       </sidebyside>
     </statement>

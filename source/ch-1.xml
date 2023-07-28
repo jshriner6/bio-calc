@@ -2021,6 +2021,9 @@ study of change, and is therefore a useful tool to understand as a scientist. In
 				<statement>
 					You have data that you suspect fits an exponential model of the form <m>f(x)= a\cdot b^x</m>. Show that if you plot <m>\log(f(x))</m> as the output and <m>x</m> as the input, you should get a linear relationship. What is the slope? What is the <m>y</m>-intercept?
 				</statement>
+				<answer>
+				slope: <m>\log(b)</m>, <m>y</m>-intercept: <m>(0,\log(a))</m>
+				</answer>
 			</exercise>
 		</exercises>
 	</section>
@@ -2079,7 +2082,7 @@ study of change, and is therefore a useful tool to understand as a scientist. In
 			</ul>
 			<remark>
 				<p>
-				When writing trigonometric functions, it is common to use the greek letter <m>\theta</m> (<q>theta</q>) to represent the input variable: <m>\sin(\theta)</m>, <m>\cos(\theta)</m>, and <m>\tan(\theta)</m>
+				As with any function, we can use any symbol to represent the input variable inside a trigonometric function. However, it is common to use the greek letter <m>\theta</m> (<q>theta</q>) to represent the input variable in these cases: <m>\sin(\theta)</m>, <m>\cos(\theta)</m>, and <m>\tan(\theta)</m>. The important thing to remember is that the output values of these functions come from the unit circle as described above.
 				</p>
 			</remark>
 			<p>
@@ -2188,7 +2191,7 @@ study of change, and is therefore a useful tool to understand as a scientist. In
 						</li>
 						<li>
 							<p>
-							Use transformation to justify each of the following trigonometric identities:
+							Use transformations to justify each of the following trigonometric identities:
 								<ul>
 									<li><m>\cos(x) = \sin\left(x+\dfrac{\pi}{2}\right)</m></li>
 									<li><m>\cos(-x)=\cos(x)</m></li>
@@ -2205,7 +2208,7 @@ study of change, and is therefore a useful tool to understand as a scientist. In
 			<title>Summary</title>
 			<ul>
 				<li> <question>How are <m>\sin(\theta)</m>, <m>\cos(\theta)</m>, and <m>\tan(\theta)</m> defined?</question>
-					<answer>These functions are defined based on the coordinates of the unit circle associated with the angle <m>x</m>. <m>\sin(\theta)</m> is the <m>y</m> value, <m>\cos(\theta)</m> is the <m>x</m> value, and <m>\tan(\theta)</m>is the slope of the line connecting the point <m>(0,0)</m> to the point on the unit circle. 
+					<answer>These functions are defined based on the coordinates of the unit circle associated with the angle <m>\theta</m>. <m>\sin(\theta)</m> is the <m>y</m> value, <m>\cos(\theta)</m> is the <m>x</m> value, and <m>\tan(\theta)</m>is the slope of the line connecting the point <m>(0,0)</m> to the point on the unit circle. 
 					 </answer>
 				</li>
 				<li> <question>How can we use trigonometric functions in modeling?</question>
@@ -2395,7 +2398,7 @@ study of change, and is therefore a useful tool to understand as a scientist. In
 				</p>
 				<figure>
 					<image width="60%" source="images/updating.png">
-						<description>Graph of the line y equals x + 1.5.  </description>
+						<description>Graph of the line y equals x plus 1.5.  </description>
 					</image>  
 					<caption>Graph of the updating function.</caption>
 				</figure>
@@ -2578,7 +2581,7 @@ study of change, and is therefore a useful tool to understand as a scientist. In
 						<mrow>10 \amp= v  +2</mrow>
 						<mrow>8 \amp= v </mrow>
 					</md>	
-				Thus, the solution function is given by <m>p_t = 8 \cdot 0.5^t + 2</m>. Create a table of values for <m>t=1,2,3,4,5</m> and <m>6</m> to verify this solutions function fits the points of this DTDS.
+				Thus, the solution function is given by <m>p_t = 8 \cdot 0.5^t + 2</m>. Create a table of values for <m>t=1,2,3,4,5</m> and <m>6</m> to verify this solution function fits the points of this DTDS.
 				</p>
 			</example>
 			<p>
@@ -2784,7 +2787,7 @@ study of change, and is therefore a useful tool to understand as a scientist. In
 			<example xml:id="ex-1-8-cob">
 				<title>Cob-webbing</title>
 				The interactive below shows the graph of an updating function <m>x_{t+1}= f(x_t)</m> which is more complicated than <xref ref="ass-1-7-solutions" text="custom">those that we analyzed previously</xref>. Use the interactive to visualize cob-webbing and answer the questions before viewing the answers.
-				<interactive desmos="ea7a7h5tw9" width="170%" aspect="2:1" preview="images/1_8_int_prev_cobweb.png"/>
+				<interactive desmos="u4nt89d6gr" width="170%" aspect="2:1" preview="images/1_8_int_prev_cobweb.png"/>
 				<ol>
 					<li>
 					If <m>x_0=0.25</m>, is the solution function increasing or deacreasing?
