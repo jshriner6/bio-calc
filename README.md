@@ -1,2 +1,2 @@
 # bio-calc
-Repository for xml files to generate Calculus for Biological Scientists.
+No longer in use. See https://github.com/jshriner6/bio-calc1.
